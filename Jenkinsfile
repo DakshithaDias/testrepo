@@ -6,6 +6,7 @@ pipeline {
             steps {
 				echo "my first pipeline works."
 		    		sh 'ls'
+		    		sh 'pwd'
 		    		echo "second line"
             }
         }
