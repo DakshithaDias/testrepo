@@ -5,7 +5,8 @@ pipeline {
 		stage('build') {
             steps {
 				echo "my first pipeline works."
-		    		pwd
+		    		ls
+		    		echo "second line"
             }
         }
 		
