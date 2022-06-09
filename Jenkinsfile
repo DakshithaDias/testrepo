@@ -5,7 +5,7 @@ pipeline {
 		stage('build') {
             steps {
 				echo "my first pipeline works."
-		    		sh ls
+		    		sh 'ls'
 		    		echo "second line"
             }
         }
