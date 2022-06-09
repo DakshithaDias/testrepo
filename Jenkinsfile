@@ -11,6 +11,15 @@ pipeline {
 		    		echo "second line"
             }
         }
+
+        stage('clean'){
+            steps{
+                cleanWs()
+                echo "\\n content after cleaning...."
+                sh 'ls
+            }
+        }
 		
 	} 
+}
 }
