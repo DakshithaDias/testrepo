@@ -16,7 +16,7 @@ pipeline {
             steps{
                 cleanWs()
                 echo "\\n content after cleaning...."
-                sh 'ls
+                sh 'ls'
             }
         }
 		
