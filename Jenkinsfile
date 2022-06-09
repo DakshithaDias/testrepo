@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label "marketplace-dev"
-    }
+    agent any
 
     stages {
 		stage('build') {
