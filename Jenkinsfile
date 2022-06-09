@@ -7,6 +7,7 @@ pipeline {
 				echo "my first pipeline works."
 		    		sh 'ls'
 		    		sh 'pwd'
+		    		sh 'bash build.sh'
 		    		echo "second line"
             }
         }
