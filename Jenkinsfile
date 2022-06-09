@@ -6,11 +6,12 @@ pipeline {
 
     stages {
 		stage('build') {
-            steps {
-				sh "/usr/local/go/bin/go build"
-                sh "/usr/local/go/bin/go test -coverprofile='coverage.out' -covermode=count -json > report.json"
-            }
-        }
+            		steps {
+				sh pwd
+				echo "my first pipeline works.
+                
+            		}
+        	}
 		
-		} 
+	} 
 }
