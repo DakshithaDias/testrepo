@@ -1,7 +1,10 @@
 #!/bin/bash
 echo "this is inside build file"
+echo "creating new directory..."
 mkdir newdir
+echo "copies readme file to new directory....."
 cp -v readme.txt newdir/
-echo "copies readme to new directory"
+echo "contents of workspace....."
 ls
+echo "\n contents of new directory....."
 ls newdir/
