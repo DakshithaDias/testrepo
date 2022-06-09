@@ -1,4 +1,3 @@
-
 pipeline {
     agent {
         label "marketplace-dev"
@@ -6,12 +5,10 @@ pipeline {
 
     stages {
 		stage('build') {
-            		steps {
-				sh pwd
-				echo "my first pipeline works.
-                
-            		}
-        	}
+            steps {
+				echo "my first pipeline works."
+            }
+        }
 		
 	} 
 }
