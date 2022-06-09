@@ -1,4 +1,4 @@
-#This is the jenkins file
+
 pipeline {
     agent {
         label "marketplace-dev"
