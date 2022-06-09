@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "this is inside build file
+echo "this is inside build file"
