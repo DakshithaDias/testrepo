@@ -18,6 +18,10 @@ pipeline {
 		    		echo "second line"
 		    		sh 'cp readme.txt newdir/'
 		    		sh 'ls newdir'
+		    		dir('newdir') {
+      					sh 'pwd'
+					sh 'ls'
+    				}
             }
         }
 
