@@ -8,5 +8,5 @@ echo "contents of workspace....."
 ls
 echo "\n contents of new directory....."
 ls newdir/
-sed -i 's/test/$PROJECT_NAME/g' jeevani.txt
+sed -i 's/test/PROJECT_NAME/g' jeevani.txt
 cat jeevani.txt
