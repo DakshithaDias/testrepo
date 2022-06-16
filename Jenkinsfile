@@ -16,8 +16,8 @@ pipeline {
 		    		sh 'pwd'
 		    		sh 'bash build.sh'
 		    		echo "second line"
-		    		sh 'cd newdir'
-		    		sh 'pwd'
+		    		sh 'cp readme.txt newdir/'
+		    		sh 'ls newdir'
             }
         }
 
