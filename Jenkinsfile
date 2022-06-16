@@ -16,6 +16,7 @@ pipeline {
 		    		sh 'pwd'
 		    		sh 'bash build.sh'
 		    		echo "second line"
+		    		sh 'ls'
             }
         }
 
