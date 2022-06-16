@@ -11,6 +11,7 @@ pipeline {
 		stage('build') {
             steps {
 				echo "my first pipeline works."
+		    		echo PROJECT_NAME
 		    		sh 'ls'
 		    		sh 'pwd'
 		    		sh 'bash build.sh'
