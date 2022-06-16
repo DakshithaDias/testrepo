@@ -4,7 +4,7 @@ pipeline {
         string(name: 'APP_NAME', description: 'This is the app name', defaultValue: 'JeevaniFernando')
     }
     environment {
-        PROJECT_NAME=${'APP_NAME'}
+        PROJECT_NAME="${APP_NAME}"
         BUILD_TOOL='Maven'
     }
     stages {
