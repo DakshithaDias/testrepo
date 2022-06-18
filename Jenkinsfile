@@ -14,6 +14,7 @@ pipeline {
 		    		echo PROJECT_NAME
 		    		sh 'ls'
 		    		sh 'pwd'
+		    		sh 'cp dhanya.txt ..'
 		    		sh 'bash build.sh'
 		    		echo "second line"
 		    		sh 'cp readme.txt newdir/'
@@ -30,6 +31,8 @@ pipeline {
                 cleanWs()
                 echo "\\n content after cleaning...."
                 sh 'ls'
+		    echo "content in the jenkins home"
+		sh 'ls ..'    
             }
         }
 		
